@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أفضل المنتجات العالمية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .intro {
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #111;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin: 15px 0 10px;
+      color: #222;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>أفضل منتجات التسوق العالمي</h1>
+  </header>
+
+  <div class="intro">
+    <p>
+      فريقنا يعمل جاهدًا للبحث عن أفضل المتاجر العالمية ذات المصداقية العالية. هدفنا أن نضمن لك تجربة تسوق ذكية وآمنة عبر الإنترنت.
+    </p>
+  </div>
+
+  <section class="section">
+    <h2>جميع المنتجات</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="منتجات علي اكسبرس">
+        <h3>منتجات علي اكسبرس</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="منتجات آي هيرب">
+        <h3>منتجات آي هيرب</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="منتجات امازون">
+        <h3>منتجات أمازون</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="منتجات عناية">
+        <h3>منتجات عناية</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="مكائن قهوة">
+        <h3>مكائن قهوة</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="أجهزة منزلية">
+        <h3>أجهزة منزلية</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="ملابس أطفال">
+        <h3>ملابس أطفال</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="ألعاب للأطفال">
+        <h3>ألعاب للأطفال</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="اكسسوارات الأجهزة">
+        <h3>اكسسوارات الأجهزة</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    جميع الحقوق محفوظة &copy; 2025
+  </footer>
+</body>
+</html>
